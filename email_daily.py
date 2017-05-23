@@ -76,7 +76,7 @@ if __name__ == '__main__':
     user_name='k200'
     user_password='52327628'
     sender='k200@126.com'
-    receivers=['349611772@qq.com']
+    receivers=['349611@qq.com']
 
     get_hitokoto()
     weather()
