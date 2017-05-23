@@ -73,9 +73,9 @@ if __name__ == '__main__':
     mail_host='smtp.126.com'
 
     #用户信息
-    user_name='k20067'
+    user_name='k200'
     user_password='52327628'
-    sender='k20067@126.com'
+    sender='k200@126.com'
     receivers=['349611772@qq.com']
 
     get_hitokoto()
