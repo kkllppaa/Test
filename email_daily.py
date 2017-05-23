@@ -84,8 +84,8 @@ if __name__ == '__main__':
     email()
     #登入发送
     try:
-        smtp=smtplib.SMTP()
-        smtp.connect(mail_host,25,timeout=120)
+        smtp=smtplib.SMTP(timeout=120)
+        smtp.connect(mail_host,25)
         smtp.login(user_name,user_password)
 
         smtp.sendmail(sender,receivers,message.as_string())
