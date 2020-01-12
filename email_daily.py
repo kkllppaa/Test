@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
     #用户信息
     user_name='k200'
-    user_password='52327628'
+    user_password='55555'
     sender='k200@126.com'
     receivers=['349611@qq.com']
 
